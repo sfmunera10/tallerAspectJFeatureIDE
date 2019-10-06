@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="ATMSoft">
+            <feature mandatory="true" name="Menú"/>
+            <feature mandatory="true" name="Acceso cuenta"/>
+            <and abstract="true" mandatory="true" name="Operaciones de cuenta">
+                <feature mandatory="true" name="Consultar Saldo"/>
+                <feature mandatory="true" name="Retirar"/>
+                <feature name="Transferir"/>
+                <feature name="Consignar"/>
+            </and>
+            <feature mandatory="true" name="Listar Operaciones Totales"/>
+            <feature name="Registros Auditoría"/>
+            <feature name="Saldo Reducido"/>
+        </and>
+    </struct>
+    <constraints/>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>
