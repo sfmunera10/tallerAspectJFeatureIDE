@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <configuration>
-    <feature automatic="selected" name="ejemplocajeroautomaticomaster"/>
+    <feature automatic="selected" name="ATMSoft"/>
+    <feature automatic="selected" name="Menú"/>
+    <feature automatic="selected" name="Acceso cuenta"/>
+    <feature automatic="selected" name="Operaciones de cuenta"/>
+    <feature automatic="selected" name="Consultar Saldo"/>
+    <feature automatic="selected" name="Retirar"/>
+    <feature manual="selected" name="Transferir"/>
+    <feature manual="selected" name="Consignar"/>
+    <feature automatic="selected" name="Listar Operaciones Totales"/>
+    <feature manual="selected" name="Logger"/>
+    <feature manual="selected" name="Saldo Reducido"/>
 </configuration>

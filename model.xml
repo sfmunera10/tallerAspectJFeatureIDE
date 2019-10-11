@@ -12,7 +12,7 @@
                 <feature name="Consignar"/>
             </and>
             <feature mandatory="true" name="Listar Operaciones Totales"/>
-            <feature name="Registros Auditoría"/>
+            <feature name="Logger"/>
             <feature name="Saldo Reducido"/>
         </and>
     </struct>
